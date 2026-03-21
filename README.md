@@ -1,6 +1,6 @@
 En este trabajo me encargué de limpiar la base de datos "ventas.xlsx", con el archivo pbix "negocio":
 
-1)Descargué el recurso de la clase e importé el archivo con conjunto de datos proporcionado a Power BI utilizando Power Query.
+1)Descargué el recurso e importé el archivo con conjunto de datos proporcionado a Power BI utilizando Power Query.
 
 2)Eliminé todos los registros que no contenían información de ventas (o sea, ventas iguales a 0).
 
