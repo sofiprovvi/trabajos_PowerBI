@@ -1,13 +1,13 @@
 En este trabajo me encargué de limpiar la base de datos "ventas.xlsx", con el archivo pbix "negocio":
 
-1)Descargué el recurso e importé el archivo con conjunto de datos proporcionado a Power BI utilizando Power Query.
+1) Descargué e importé el archivo a Power BI para limpiar y transformar los datos utilizando Power Query:
 
-2)Eliminé todos los registros que no contenían información de ventas (o sea, ventas iguales a 0).
+2) Eliminé todos los registros que no contenían información de ventas (o sea, ventas iguales a 0).
 
-3)Ordené los datos por fecha de venta de más reciente a más antigua.
+3) Ordené los datos por fecha de venta de más reciente a más antigua.
 
-4)Identifiqué y eliminé los registros duplicados basados en la combinación de ID de producto y fecha de venta.
+4) Identifiqué y eliminé los registros duplicados basados en la combinación de ID de producto y fecha de venta.
 
-5)Aseguré los tipos de datos. Por ejemplo, que la columna de 'Cantidad Vendida' esté configurada como entero y la columna de 'Precio' como decimal.
+5) Asigné los tipos de datos adecuados. Por ejemplo, que la columna de 'Cantidad Vendida' esté configurada como entero y la columna de 'Precio' como decimal.
 
-6)Agregué una tabla nueva con cada producto y su cantidad total vendida.
+6) Agregué la tabla "total_vendido" que contenía cada producto y su cantidad total vendida.
